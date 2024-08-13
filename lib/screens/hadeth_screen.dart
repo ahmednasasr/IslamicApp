@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import '../ahadeth/ahadeth_details.dart';
 
@@ -51,7 +52,7 @@ class _QuranScreenState extends State<HadethScreen> {
         Divider(height: 2,thickness: 3,color: Color(0xffE2BE7F),),
         Padding(
           padding: const EdgeInsets.all(3.0),
-          child: Text("رقم الحديث",style: TextStyle(fontWeight: FontWeight.w500,fontSize: 30,color: Colors.white),),
+          child: Text("hadethnumber".tr(),style: TextStyle(fontWeight: FontWeight.w500,fontSize: 30,color: Colors.white),),
         ),
         Divider(height: 2,thickness: 3,color: Color(0xffE2BE7F),),
         Expanded(
